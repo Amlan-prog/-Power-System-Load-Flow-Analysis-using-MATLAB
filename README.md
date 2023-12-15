@@ -1,4 +1,6 @@
-I assume you're referring to the Newton-Raphson and Gauss-Seidel methods, which are numerical techniques used in power system analysis, particularly for load flow analysis. Here's a brief overview of each:
+**Here is an implementation of the Newton-Raphson and Gauss-Seidel methods in MATLAB**
+
+The Newton-Raphson and Gauss-Seidel methods, which are numerical techniques used in power system analysis, particularly for load flow analysis. Here's a brief overview of each:
 
 1. **Newton-Raphson Method:**
    - **Description:** The Newton-Raphson method is an iterative numerical technique used for solving systems of nonlinear equations. In the context of power systems, it is often employed to solve the nonlinear power flow equations, providing a more accurate solution compared to linear methods.
@@ -9,3 +11,5 @@ I assume you're referring to the Newton-Raphson and Gauss-Seidel methods, which 
    - **Application:** Commonly used in power system load flow analysis, especially for its simplicity and efficiency in solving linear equations, albeit with some trade-offs in terms of convergence speed and accuracy.
 
 These methods play a crucial role in analyzing and solving power system equations to determine the steady-state operating conditions of the system, including voltage magnitudes and phase angles at various nodes. They are fundamental tools for power engineers in ensuring the stability and reliability of electrical grids.
+
+Power flow analysis is the backbone of power system analysis and design and are necessary for planning, operation, economic scheduling and exchange of power between utilities.
